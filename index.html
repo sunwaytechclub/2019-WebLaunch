@@ -7,17 +7,21 @@
 
     <!--Title of the page-->
     <title>Home</title>
+
+    <!--Startpage icon - material house icon-->
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<div id="logo">
 		<h1>Hello there!</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sint quasi fugiat, facilis quia at magnam dignissimos dicta illo laborum tenetur voluptas corrupti iusto quis quam, placeat amet obcaecati veritatis?</p>
+		<h2>Welcome back</h2>
 	</div>
-	<div id="content" style="display: flex;justify-content: space-around;">
-		<div style="width: 20%;">
-			<img src="https://source.unsplash.com/random/200x200" alt="">
-			<h3>Studies</h3>
-			<hr>
+	<div id="content">
+		<div class="group">
+			<h1>Studies</h1>
 			<ul>
 				<li><a href="#">Item</a></li>
 				<li><a href="#">Item</a></li>
@@ -25,10 +29,8 @@
 			</ul>
 		</div>
 
-		<div style="width: 20%;">
-			<img src="https://source.unsplash.com/random/200x200" alt="">
-			<h3>Work</h3>
-			<hr>
+		<div class="group">
+			<h1>Work</h1>
 			<ul>
 				<li><a href="#">linkedin.com</a></li>
 				<li><a href="#">wikipedia.com</a></li>
@@ -36,10 +38,8 @@
 			</ul>
 		</div>
 
-		<div style="width: 20%;">
-			<img src="https://source.unsplash.com/random/200x200" alt="">
-			<h3>Personal</h3>
-			<hr>
+		<div class="group">
+			<h1>Personal</h1>
 			<ul>
 				<li><a href="#">facebook.com</a></li>
 				<li><a href="#">twitter.com</a></li>
@@ -47,6 +47,9 @@
 			</ul>
 		</div>
 	</div>
-	<p>Made by User</p>
+	<div id="credits">
+		Made by User
+	</div>
+	<!-- <script type="text/javascript" src="script.js"></script> -->
 </body>
 </html>
