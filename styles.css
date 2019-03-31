@@ -52,6 +52,28 @@ body {
     left: 1rem;
 }
 
+#groupOne {
+    opacity: 0;
+    transition: opacity 1s;
+}
+#groupTwo {
+    opacity: 0;
+    transition: opacity 1s;
+}
+#groupThree {
+    opacity: 0;
+    transition: opacity 1s;
+}
+#groupOne.active {
+    opacity: 1;
+}
+#groupTwo.active {
+    opacity: 1;
+}
+#groupThree.active {
+    opacity: 1;
+}
+
 .group {
     display: inline-block;
     vertical-align: top;
