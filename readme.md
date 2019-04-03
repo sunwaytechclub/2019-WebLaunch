@@ -12,7 +12,7 @@ April 15th: Javascript
 
 April 22nd & 25th: React JS
 
-![Web Launch Poster](./asset/img/weblaunch2019ok.png | width=300)
+<img src="./asset/img/weblaunch2019ok.png" width="300">
 
 ---
 
